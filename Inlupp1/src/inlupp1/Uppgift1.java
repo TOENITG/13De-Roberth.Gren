@@ -6,6 +6,8 @@
 
 package inlupp1;
 
+
+
 import java.util.Scanner;
 
 /**
@@ -34,12 +36,23 @@ public class Uppgift1 {
    
    String full_name;
    full_name = first_name+" "+family_name;
+  
+   String age;
+   System.out.print("Enter your date of birth: ");       
+   age = user_input.next(); 
    
    String adress;
    System.out.print("Enter your adress: ");
-    adress= user_input.next();
+    adress= user_input.next(); 
    
-    System.out.println("Välkommen "  +  full_name  + " " + adress );
+    /**
+     * Sorry, men fattar inte hur man får in fler packages i en kod..
+     * Men jag tror att jag fatttar uppgift 2.
+     * 
+     */
+    
+    
+    System.out.println("Välkommen "  +  full_name  +"," +" Eftersom att du fyller år den"+"" + age +" så kommer vi och firar din på addressen:" + adress );
    
   
    
@@ -48,3 +61,4 @@ public class Uppgift1 {
     }
     
 }
+
