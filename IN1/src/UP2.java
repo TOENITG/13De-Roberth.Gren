@@ -1,29 +1,25 @@
+
+import java.util.Scanner;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
 
-package inlupp1;
-
-
-
-import java.util.Scanner;
-
 /**
  *
  * @author Blondie
  */
-public class Uppgift1 {
+public class UP2 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        
-     
-   Scanner user_input = new Scanner(System.in);
+    
+    // TODO code application logic here
+      Scanner user_input = new Scanner(System.in);
         
          
    String first_word;
@@ -51,6 +47,9 @@ public class Uppgift1 {
    sixth_word = user_input.next();
                
    System.out.println( first_word + second_word + third_word + forth_word + fifth_word + sixth_word );
+     
+    
+    
     
     }
     
