@@ -46,9 +46,11 @@ public class UP2 {
    System.out.print("Enter the sixth word: ");
    sixth_word = user_input.next();
                
-   System.out.println( first_word + second_word + third_word + forth_word + fifth_word + sixth_word );
+   System.out.println( first_word + " " + second_word  + " " + third_word  + " " + forth_word  + " " + fifth_word  + " " + sixth_word  );
      
-    
+    /**
+     * Ett väldigt enkel kod som skriver utt 6 stycken ord som den sen skriver ut
+     */
     
     
     }
