@@ -10,7 +10,12 @@ public class Sport {
         // TODO code application logic here
     Scanner user_input = new Scanner(System.in);
     
+    boolean X= true;
+   
     
+    
+    do {
+        
     String first_question;
     System.out.println("Which month does the Russian celebrates the October Revolution?");
     first_question = user_input.nextLine();
@@ -18,7 +23,7 @@ public class Sport {
     if (first_question.equalsIgnoreCase("November")){
          System.out.println("Right answer!") ;       
     }else{
-       System.out.println("Wrong answer");
+       System.out.println("Wrong answer,in November");
     }
     
     String second_question;
@@ -28,7 +33,7 @@ public class Sport {
     if (second_question.equalsIgnoreCase("7 million")){
          System.out.println("Right answer!") ;       
     }else{
-       System.out.println("Wrong answer");
+       System.out.println("Wrong answer, 7 million players");
     }
     
     String third_question;
@@ -38,7 +43,7 @@ public class Sport {
     if (third_question.equalsIgnoreCase("8000")){
          System.out.println("Right answer!") ;       
     }else{
-       System.out.println("Wrong answer");
+       System.out.println("Wrong answer,8000 soldiers");
     }
     
     String forth_question;
@@ -48,7 +53,7 @@ public class Sport {
     if (forth_question.equalsIgnoreCase("Two") || forth_question.equalsIgnoreCase("2")){
          System.out.println("Right answer!") ;       
     }else{
-       System.out.println("Wrong answer");
+       System.out.println("Wrong answer, two bombs were dropped");
     }
     
     String fifth_question;
@@ -58,7 +63,7 @@ public class Sport {
     if (fifth_question.equalsIgnoreCase("24 million")){
          System.out.println("Right answer!") ;       
     }else{
-       System.out.println("Wrong answer");
+       System.out.println("Wrong answer, 24 million people");
     }
     
     String sixth_question;
@@ -68,7 +73,7 @@ public class Sport {
     if (sixth_question.equalsIgnoreCase("10")){
          System.out.println("Right answer!") ;       
     }else{
-       System.out.println("Wrong answer");
+       System.out.println("Wrong answer, 10");
     }
     
     String seventh_question;
@@ -78,15 +83,18 @@ public class Sport {
     if (seventh_question.equalsIgnoreCase("Roberth") || seventh_question.equalsIgnoreCase("Roberth Green")){
          System.out.println("Right answer!") ;       
     }else{
-       System.out.println("Wrong answer");
+       System.out.println("Wrong answer, Robban made this code");
+    
+    String restart_1;
+    System.out.println("Would you like to try again?");
+    restart_1 = user_input.nextLine();
+     
+    if (restart_1.equalsIgnoreCase("No")){
+       break;
     }
-    
-    
-    
-    
-    
     }
-    
-    
-    
+    }
+    while (X= true);
+    }
 }
+    
